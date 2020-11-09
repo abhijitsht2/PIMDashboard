@@ -1,0 +1,101 @@
+.icon_wrap {
+  cursor: pointer;
+}
+.profile {
+  /*position: relative;
+    float: right;*/
+  margin-left: 1230px;
+  margin-top: 10px;
+}
+.profile .profile_dd {
+  position: absolute;
+  top: 48px;
+  right: -15px;
+  user-select: none;
+  background: #fff;
+  border: 1px solid #c7d8e2;
+  width: 350px;
+  height: auto;
+  display: none;
+  border-radius: 3px;
+  box-shadow: 10px 10px 35px rgba(0, 0, 0, 0.125),
+    -10px -10px 35px rgba(0, 0, 0, 0.125);
+}
+.profile .profile_dd:before {
+  content: "";
+  position: absolute;
+  top: -20px;
+  right: 15px;
+  border: 10px solid;
+  border-color: transparent transparent #fff transparent;
+}
+.profile .icon_wrap {
+  display: flex;
+  align-items: center;
+}
+.profile .name {
+  display: inline-block;
+  margin: 0 10px;
+  color: #fff;
+}
+.profile.active .icon_wrap {
+  color: #3b80f9;
+}
+.profile .profile_dd {
+  width: 225px;
+}
+.profile .profile_dd:before {
+  rigth: 10px;
+}
+.profile .profile_dd ul li {
+  /*border-bottom: 1px solid black;*/
+  margin-left: 50px;
+}
+.profile .profile_dd ul li a {
+  display: block;
+  padding: 15px 35px;
+  position: relative;
+  color: black;
+}
+.profile .profile_dd ul li a .picon {
+  display: inline-block;
+  width: 30px;
+}
+.profile .profile_dd ul li a:hover {
+  color: #3b80f9;
+  background: #f0f5ff;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.profile .profile_dd ul li.profile_li a:hover {
+  background: transparent;
+  cursor: pointer;
+  color: #3b80f9;
+}
+.profile .profile_dd ul li .btn {
+  height: 32px;
+  padding: 7px 10px;
+  color: #fff;
+  border-radius: 3px;
+  cursor: pointer;
+  text-align: center;
+  background: #3b80f9;
+  width: 125px;
+  margin: 5px auto 15px;
+}
+.profilecolor {
+  color: #fff;
+}
+.profile .profile_dd ul li .btn:hover {
+  background: #6593e4;
+}
+.profile.active .profile_dd {
+  display: block;
+}
+.profilePic {
+  width: 28px;
+  height: 28px;
+}
+.profile_ul {
+  list-style: none;
+}
