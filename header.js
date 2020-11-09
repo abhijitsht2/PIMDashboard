@@ -30,7 +30,7 @@ function Header(){
         <>
         <a href="#"><img src={loginImg} className="LogoImg"/></a>
         <a href="#" className="pimText">PIM</a>
-  <a href="#home" className="bottomBorder">Dashboard</a>
+  <a href="#home" className="bottomBorder bottomhoverBorder">Dashboard</a>
   <div class="dropdown">
     <button class="dropbtn">Manage 
       <i class="fa fa-caret-down"></i>

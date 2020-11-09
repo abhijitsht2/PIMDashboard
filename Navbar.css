@@ -53,10 +53,6 @@
   color: #32363a;
 }
 
-.bottomBorder:hover {
-  border-bottom: 2px solid #fff;
-  transition: all 0.1s linear;
-}
 .dropdown {
   float: left;
   overflow: hidden;

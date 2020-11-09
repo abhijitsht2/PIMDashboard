@@ -99,3 +99,11 @@
 .profile_ul {
   list-style: none;
 }
+.bottomBorder:hover {
+  border-bottom: 2px solid #fff;
+  transition: all 0.1s linear;
+}
+.bottomhoverBorder {
+  border-bottom: 2px solid #fff;
+  transition: all 0.1s linear;
+}
